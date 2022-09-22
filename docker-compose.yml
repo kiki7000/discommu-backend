@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  backend:
+    build: .
+    volumes:
+      - ./config.json:/app/config.json
+
+    ports:
+      - "80:3000"
+    environment:
+      - VIRTUAL_HOST:api.discommu.ga:latest

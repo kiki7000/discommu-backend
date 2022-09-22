@@ -1,0 +1,18 @@
+{
+    "port": 3000,
+    "discordAPIEndpoint": "https://discord.com/api/v9",
+    "jwtSecret": "test",
+    "botToken": "NzYxNDk1NDg3MjE1MDQyNTcw.X3bb8A.xZ9C5AVG8zaekYKX7mqVuRD0QGM",
+    "logFile": "discommu-backend.log",
+    "logLevel": "DEBUG",
+    "staticDir": "static",
+    "oauth2": {
+        "clientID": "761480053556510720",
+        "clientSecret": "susKhGjxYsOAvFtGHPQeA6IST-fKJmX_",
+        "redirectURI": "http://localhost:8080/callback"
+    },
+    "db": {
+        "password": "rootroot",
+        "url": "cluster0.jeeb9.mongodb.net"
+    }
+}
